@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Codecademy Project | Cheat Sheet: HTML Tables</title>
+  </head>
+  <body>
+    <h1>HTML Table Reference</h1>
+    <section>
+      <h2>Table Tags</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Use</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag-or-attribute">&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables</td>
+            <td>Signals a table</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table</td>
+            <td>Lends semantic meaning to the row of column headers</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;tbody&gt;</td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data</td>
+            <td>Lends semantic meaning to the set of rows containing data</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>The table row container (use: creates a new row)</td>
+            <td>Signals a new row</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;th&gt;</td>
+            <td>Table Heading</td>
+            <td>The table heading container</td>
+            <td>Labels and clarifies the meaning of data</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td>The container for a datum in a table</td>
+            <td>Displays a piece of information</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">&lt;tfoot&gt;</td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer in a table</td>
+            <td>
+              Typically displays sums, differences, results of tabular data,
+              etc.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Table Attributes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Name</th>
+            <th scope="col">Use</th>
+            <th scope="col">Value(s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag-or-attribute">scope</td>
+            <td>Scope</td>
+            <td>
+              Specifies that a &lt;th&gt; cell is a header for a column, a row,
+              or a group of either.
+            </td>
+            <td>"col," "row," "colgroup," or "rowgroup"</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">colspan</td>
+            <td>Column Span</td>
+            <td>Defines how many columns a &lt;td&gt; should span.</td>
+            <td>An integer greater than or equal to 1.</td>
+          </tr>
+          <tr>
+            <td class="tag-or-attribute">rowspan</td>
+            <td>Row Span</td>
+            <td>Defines how many rows a &lt;td&gt; should span.</td>
+            <td>An integer greater than or equal to 1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <p><a>Open-source code</a> by Addy López</p>
+    </footer>
+  </body>
+</html>
