@@ -1,8 +1,8 @@
 body {
+  background-color: #ffe4c487;
   font-family: "Trebuchet MS", sans-serif;
   letter-spacing: 1px;
   text-align: center;
-  background-color: #ffe4c487;
 }
 h1 {
   background-color: #4750ffc9;
@@ -15,9 +15,9 @@ h2 {
 }
 h1,
 h2 {
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-radius: 16px;
-  color: bisque;
+  color: #ffe4c4;
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -28,8 +28,8 @@ th,
 td {
   padding: 12px 6px;
   background-color: #ffe4c4;
-  border-right: 2px solid navy;
-  border-top: 2px solid navy;
+  border-right: 2px solid #000080;
+  border-top: 2px solid #000080;
   border-radius: 16px;
 }
 th {
@@ -41,9 +41,9 @@ th {
 
 table {
   background-color: #f88484;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-radius: 10px;
-  color: navy;
+  color: #000080;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
@@ -51,6 +51,12 @@ table {
   max-width: 900px;
 }
 
+p {
+  color: #000080;
+}
+a {
+  color: #0051ff;
+}
 .tag-or-attribute {
   font-family: monospace;
 }
